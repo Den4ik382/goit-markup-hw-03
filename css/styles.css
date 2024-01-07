@@ -53,6 +53,8 @@ h6 {
   height: 72px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
+
+  width: 1158px;
 }
 .container {
   width: 1158px;
@@ -87,7 +89,7 @@ h6 {
   margin-left: auto;
   gap: 40px;
   margin-left: 76px;
-  padding: 24px;
+  padding: 24px 0;
 }
 
 .header-item {
@@ -183,7 +185,7 @@ h6 {
 }
 
 .strategy {
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 .strategy-tittle {
 }
@@ -314,7 +316,6 @@ h6 {
 .name-app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  max-width: 360px;
   border-top: none;
 }
 
