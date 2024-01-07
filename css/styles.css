@@ -217,6 +217,7 @@ h6 {
 .team {
   background-color: #f4f4fd;
   padding: 120px 0;
+  text-align: center;
 }
 .team-tittle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -234,7 +235,6 @@ h6 {
 }
 .team-item {
   background-color: #ffffff;
-  max-width: 264px;
   border-radius: 0px 0px 4px 4px;
   background: var(--WHITE, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
@@ -244,6 +244,8 @@ h6 {
   width: calc((100% - 72px) / 4);
 }
 .team-img {
+  max-width: 264px;
+  max-height: 260px;
 }
 .team-subtittle {
   color: var(--NAVY-BLUE, #2e2f42);
