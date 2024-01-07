@@ -53,7 +53,7 @@ h6 {
   height: 72px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-
+  padding: 0 15px;
   width: 1158px;
 }
 .container {
@@ -67,6 +67,8 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
+
+  padding: 24px 0;
 }
 
 .header-link {
@@ -79,7 +81,6 @@ h6 {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  padding: 24px 0;
   margin-right: 76px;
 }
 
@@ -193,6 +194,7 @@ h6 {
   gap: 24px;
 }
 .strategy-item {
+  width: calc((100% - 72px) / 4);
 }
 .strategy-subtittle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -201,7 +203,6 @@ h6 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   display: flex;
-  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
 }
 .strategy-text {
@@ -239,9 +240,6 @@ h6 {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-  max-width: 264px;
-  max-height: 380px;
-
   width: calc((100% - 72px) / 4);
 }
 .team-img {
