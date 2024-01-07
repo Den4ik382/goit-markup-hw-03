@@ -56,10 +56,9 @@ h6 {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   padding: 0 15px;
-  width: 1158px;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
 }
 .container-header {
@@ -138,7 +137,6 @@ h6 {
 }
 .hero {
   background: var(--NAVY-BLUE, #2e2f42);
-  width: 1440px;
   height: 600px;
   text-align: center;
   padding: 188px 0;
@@ -294,6 +292,7 @@ h6 {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
+  max-width: 360px;
 }
 .portfolio-img {
 }
