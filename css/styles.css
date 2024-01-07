@@ -53,12 +53,11 @@ h6 {
   height: 72px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px 0 15px;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .container-header {
   display: flex;
@@ -211,8 +210,6 @@ h6 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   display: flex;
-  width: 264px;
-  height: 72px;
 }
 
 .team {
@@ -267,6 +264,7 @@ h6 {
 }
 .people-work {
   padding: 32px 0;
+  max-width: 264px;
 }
 
 .portfolio {
@@ -316,6 +314,7 @@ h6 {
 .name-app {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  max-width: 360px;
   border-top: none;
 }
 
