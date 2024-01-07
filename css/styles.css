@@ -57,9 +57,8 @@ h6 {
   width: 1158px;
 }
 .container {
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .container-header {
   display: flex;
@@ -240,12 +239,12 @@ h6 {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+  max-width: 264px;
+  max-height: 380px;
 
   width: calc((100% - 72px) / 4);
 }
 .team-img {
-  max-width: 264px;
-  max-height: 260px;
 }
 .team-subtittle {
   color: var(--NAVY-BLUE, #2e2f42);
