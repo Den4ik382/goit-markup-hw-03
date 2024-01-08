@@ -94,10 +94,11 @@ h6 {
   margin-left: auto;
   gap: 40px;
   margin-left: 76px;
+
+  padding: 24px 0;
 }
 
 .header-item {
-  padding: 24px 0;
 }
 
 .header-link-nav {
@@ -119,7 +120,8 @@ h6 {
 .header-addres-list {
   display: flex;
   gap: 40px;
-  display: flex;
+  align-items: center;
+  justify-content: end;
 }
 
 .header-item-addres {
