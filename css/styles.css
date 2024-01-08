@@ -85,17 +85,17 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
-  align-items: center;
+  display: inline-block;
   margin-right: 76px;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-list {
   display: flex;
   margin-left: auto;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-item {
@@ -107,6 +107,11 @@ h6 {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  display: inline-block;
 }
 .header-link-nav:hover,
 .header-link-nav:focus,
