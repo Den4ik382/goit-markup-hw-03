@@ -50,6 +50,11 @@ h6 {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -61,10 +66,7 @@ h6 {
   width: 1158px;
   margin: 0 auto;
 }
-.container {
-  width: 1158px;
-  margin: 0 auto;
-}
+
 .container-header {
   display: flex;
   align-items: center;
@@ -197,6 +199,7 @@ h6 {
   display: flex;
   gap: 24px;
   align-items: center;
+  justify-content: center;
 }
 .strategy-item {
   width: calc((100% - 72px) / 4);
@@ -330,7 +333,6 @@ h6 {
 
 .foot {
   background: var(--NAVY-BLUE, #2e2f42);
-  padding-left: 156px;
   height: 312px;
   padding: 100px 0;
 }
