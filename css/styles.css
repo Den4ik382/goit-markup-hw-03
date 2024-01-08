@@ -70,6 +70,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 24px 0;
 }
 .header-nav {
   display: flex;
@@ -87,8 +88,6 @@ h6 {
   display: flex;
   align-items: center;
   margin-right: 76px;
-
-  padding: 24px 0;
 }
 
 .header-list {
@@ -96,7 +95,6 @@ h6 {
   margin-left: auto;
   gap: 40px;
   margin-left: 76px;
-  padding: 24px 0;
 }
 
 .header-item {
@@ -312,8 +310,6 @@ h6 {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
-  max-width: 364px;
-  max-height: 100%;
 }
 .portfolio-img {
 }
