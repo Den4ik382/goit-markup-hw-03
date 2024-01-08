@@ -51,25 +51,24 @@ h6 {
   overflow: hidden;
 }
 .container {
-  width: 1440px;
+  width: 1158px;
   margin: 0 auto;
 }
 
 .header {
   display: flex;
-  align-items: center;
   height: 72px;
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   padding: 0 15px;
-
-  width: 1158px;
+  width: 1440px;
   margin: 0 auto;
 }
 
 .container-header {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 .header-nav {
   display: flex;
@@ -146,6 +145,8 @@ h6 {
   height: 600px;
   text-align: center;
   padding: 188px 0;
+  width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-tittle {
@@ -192,6 +193,8 @@ h6 {
 
 .strategy {
   padding: 120px 0;
+  width: 1440px;
+  margin: 0 auto;
 }
 .strategy-tittle {
 }
@@ -227,6 +230,8 @@ h6 {
   background-color: #f4f4fd;
   padding: 120px 0;
   text-align: center;
+  width: 1440px;
+  margin: 0 auto;
 }
 .team-tittle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -334,7 +339,9 @@ h6 {
 .foot {
   background: var(--NAVY-BLUE, #2e2f42);
   height: 312px;
+  width: 1440px;
   padding: 100px 0;
+  margin: 0 auto;
 }
 .foot-link {
   color: var(--IRIS, #4d5ae5);
