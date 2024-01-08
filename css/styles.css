@@ -53,6 +53,7 @@ h6 {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -73,8 +74,6 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
-
-  padding: 24px 0;
 }
 
 .header-link {
@@ -88,6 +87,8 @@ h6 {
   display: flex;
   align-items: center;
   margin-right: 76px;
+
+  padding: 24px 0;
 }
 
 .header-list {
