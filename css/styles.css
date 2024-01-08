@@ -25,6 +25,7 @@ ul {
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 p,
 h1,
@@ -56,6 +57,9 @@ h6 {
   border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   padding: 0 15px;
+
+  width: 1158px;
+  margin: 0 auto;
 }
 .container {
   width: 1158px;
@@ -192,9 +196,11 @@ h6 {
 .strategy-list {
   display: flex;
   gap: 24px;
+  align-items: center;
 }
 .strategy-item {
   width: calc((100% - 72px) / 4);
+  margin: 0 auto;
 }
 .strategy-subtittle {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -231,6 +237,8 @@ h6 {
 }
 .team-list {
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: 24px;
 }
 .team-item {
@@ -240,6 +248,7 @@ h6 {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
+  max-width: 264px;
 }
 
 .team-img {
@@ -265,7 +274,6 @@ h6 {
 }
 .people-work {
   padding: 32px 0;
-  max-width: 264px;
 }
 
 .portfolio {
@@ -287,12 +295,15 @@ h6 {
   column-gap: 24px;
   row-gap: 48px;
   padding-bottom: 120px;
+  align-items: center;
+  justify-content: center;
 }
 .portfolio-item {
   border: 1px solid var(--CORNFLOWER, #e7e9fc);
   background: var(--WHITE, #fff);
   width: calc((100% - 48px) / 3);
-  max-width: 360px;
+  max-width: 364px;
+  max-height: 100%;
 }
 .portfolio-img {
 }
