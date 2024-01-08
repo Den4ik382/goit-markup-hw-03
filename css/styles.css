@@ -36,6 +36,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
 }
 .visually-hidden {
   position: absolute;
@@ -117,9 +118,10 @@ h6 {
 }
 .header-addres-list {
   display: flex;
-  padding: 24px;
   gap: 40px;
   display: flex;
+
+  padding: 24px 0;
 }
 
 .header-item-addres {
