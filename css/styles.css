@@ -87,7 +87,6 @@ h6 {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  margin-right: 76px;
 }
 
 .header-list {
@@ -95,11 +94,10 @@ h6 {
   margin-left: auto;
   gap: 40px;
   margin-left: 76px;
-
-  padding: 24px 0;
 }
 
 .header-item {
+  padding: 24px 0;
 }
 
 .header-link-nav {
@@ -126,7 +124,6 @@ h6 {
 }
 
 .header-item-addres {
-  padding: 24px 0;
 }
 
 .header-link-addres {
@@ -135,6 +132,8 @@ h6 {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
+  padding: 24px 0;
 }
 
 .header-link-addres:hover,
