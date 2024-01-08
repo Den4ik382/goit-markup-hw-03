@@ -75,6 +75,8 @@ h6 {
 .header-nav {
   display: flex;
   align-items: center;
+
+  padding: 24px 0 24px;
 }
 
 .header-link {
@@ -88,8 +90,6 @@ h6 {
   display: flex;
   align-items: center;
   margin-right: 76px;
-
-  padding: 24px 0 24px;
 }
 
 .header-list {
